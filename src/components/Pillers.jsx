@@ -17,7 +17,7 @@ export default function Pillers() {
                             </div>
                             <div class="flex flex-col gap-1">
                                 <h2 class="text-text-primary dark:text-text-light text-lg font-bold leading-tight">Elite Coaching</h2>
-                                <p class="text-text-secondary dark:text-slate-400 text-sm font-normal leading-normal">Learn from UEFA-licensed coaches with experience at the highest levels of the game.</p>
+                                <p class="text-text-secondary dark:text-slate-400 text-sm font-normal leading-normal">Learn from UEFA/AFC-licensed coaches with experience at the highest levels of the game.</p>
                             </div>
                         </div>
                         <div class="flex flex-col flex-1 gap-4 rounded-lg border border-slate-200 dark:border-slate-700 bg-surface-light dark:bg-surface-dark p-6 text-center items-center">

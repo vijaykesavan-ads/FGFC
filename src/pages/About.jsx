@@ -5,21 +5,25 @@ import Journey from "../components/Journey";
 import ManagementTeam from "../components/ManagementTeam";
 import Parallax from "../components/Parallax";
 import Reveal from "../components/Reveal";
+import TrainingGrounds from "../components/TrainingGrounds";
 
 export default function About() {
   return (
     <>
-     <Parallax offset={["0%", "-20%"]}>
-      <Abouthero />
+      <Parallax offset={["0%", "-20%"]}>
+        <Abouthero />
       </Parallax>
       <Reveal delay={0.2}>
-      <Affiliations />
+        <Affiliations />
       </Reveal>
       <Reveal delay={0.3}>
-      <Journey />
+        <Journey />
+      </Reveal>
+      <Reveal delay={0.3}>
+        <TrainingGrounds />
       </Reveal>
       <Reveal delay={0.4}>
-      <ManagementTeam />
+        <ManagementTeam />
       </Reveal>
     </>
   );

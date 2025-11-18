@@ -4,6 +4,8 @@ import { FaUsers, FaHeart } from "react-icons/fa";
 import { GiSoccerField } from "react-icons/gi";
 import Philosophy from "../components/Philosophy";
 import Clublife from "../components/Clublife";
+import PartnerWithUs from "../components/PartnerWithUs";
+import Reveal from "../components/Reveal";
 
 export default function Home() {
   useEffect(() => {
@@ -77,6 +79,9 @@ export default function Home() {
       </div>
 
       <Philosophy />
+      <Reveal delay={0.4}>
+      <PartnerWithUs/>
+      </Reveal>
       <Clublife />
     </div>
   );

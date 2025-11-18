@@ -37,7 +37,7 @@ const Hero = () => {
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-white text-5xl md:text-6xl font-extrabold mb-4">
           Welcome to{" "}
-          <span className="bg-white/40 text-[#10487B] px-3 py-1 rounded-lg">
+          <span className="bg-white/25 text-[#10487B] px-3 py-1 rounded-lg">
             First Goal FC
           </span>
         </h1>
@@ -53,7 +53,7 @@ const Hero = () => {
           </button>
           <button
             onClick={() => learnMore()}
-            className="bg-white/20 text-white font-bold px-5 py-3 rounded-full">
+            className="bg-white/20 text-white hover:bg-white/50 font-bold px-5 py-3 rounded-full">
             Learn More
           </button>
         </div>
