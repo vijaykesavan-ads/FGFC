@@ -16,7 +16,9 @@ import FloatingBall from "./components/FloatingBall";
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
-      <FloatingBall />
+      <div className="hidden lg:block">
+        <FloatingBall />
+      </div>
       <header className="fixed top-0 left-0 w-full z-50">
         <Header />
       </header>
